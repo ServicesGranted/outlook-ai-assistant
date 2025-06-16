@@ -1,0 +1,123 @@
+
+{
+  "suggestions": [
+    {
+      "id": "ai-1",
+      "type": "email_priority",
+      "title": "High Priority Email Detected",
+      "description": "Sarah Chen's budget review email requires urgent attention. Deadline is EOD Friday.",
+      "action": "Review and respond to budget proposal",
+      "priority": "high",
+      "category": "Email Management",
+      "estimatedTime": "15 minutes",
+      "relatedEmailId": "1",
+      "icon": "AlertTriangle"
+    },
+    {
+      "id": "ai-2",
+      "type": "meeting_conflict",
+      "title": "Potential Meeting Conflict",
+      "description": "Your 2 PM client presentation may overlap with the budget review meeting tomorrow.",
+      "action": "Reschedule one of the conflicting meetings",
+      "priority": "medium",
+      "category": "Calendar Management",
+      "estimatedTime": "5 minutes",
+      "relatedCalendarIds": ["cal-2", "cal-3"],
+      "icon": "Calendar"
+    },
+    {
+      "id": "ai-3",
+      "type": "follow_up",
+      "title": "Follow-up Reminder",
+      "description": "David Kim's partnership proposal has been waiting for 3 days. Consider sending a response.",
+      "action": "Reply to partnership proposal",
+      "priority": "medium",
+      "category": "Relationship Management",
+      "estimatedTime": "20 minutes",
+      "relatedEmailId": "6",
+      "icon": "MessageCircle"
+    },
+    {
+      "id": "ai-4",
+      "title": "Optimize Your Schedule",
+      "type": "productivity",
+      "description": "You have 2 hours of free time tomorrow morning. Perfect for focused work on Project Alpha.",
+      "action": "Block time for deep work",
+      "priority": "low",
+      "category": "Productivity",
+      "estimatedTime": "2 minutes",
+      "icon": "Clock"
+    },
+    {
+      "id": "ai-5",
+      "type": "email_organization",
+      "title": "Inbox Organization",
+      "description": "4 emails are waiting to be filed. AI has suggested categories with 90%+ confidence.",
+      "action": "Review and file suggested emails",
+      "priority": "low",
+      "category": "Organization",
+      "estimatedTime": "10 minutes",
+      "relatedEmailIds": ["10", "11", "12", "13"],
+      "icon": "FolderOpen"
+    },
+    {
+      "id": "ai-6",
+      "type": "meeting_prep",
+      "title": "Meeting Preparation",
+      "description": "Your client presentation is in 4 hours. Review the latest project updates and prepare talking points.",
+      "action": "Prepare presentation materials",
+      "priority": "high",
+      "category": "Meeting Preparation",
+      "estimatedTime": "30 minutes",
+      "relatedCalendarId": "cal-2",
+      "icon": "FileText"
+    },
+    {
+      "id": "ai-7",
+      "type": "productivity_tip",
+      "title": "Productivity Insight",
+      "description": "You respond to emails 40% faster in the morning. Consider batching email responses before 11 AM.",
+      "action": "Adjust email processing schedule",
+      "priority": "low",
+      "category": "Productivity Tips",
+      "estimatedTime": "1 minute",
+      "icon": "TrendingUp"
+    },
+    {
+      "id": "ai-8",
+      "type": "deadline_reminder",
+      "title": "Upcoming Deadline",
+      "description": "Team building event RSVP deadline is in 5 days. Don't forget to respond to HR.",
+      "action": "RSVP for team building event",
+      "priority": "low",
+      "category": "Reminders",
+      "estimatedTime": "2 minutes",
+      "relatedEmailId": "5",
+      "icon": "Bell"
+    }
+  ],
+  "productivityStats": {
+    "emailsProcessedToday": 12,
+    "averageResponseTime": "2.5 hours",
+    "meetingsAttended": 3,
+    "productivityScore": 87,
+    "weeklyTrend": "+5%",
+    "topCategories": [
+      {
+        "name": "Email Management",
+        "count": 8,
+        "percentage": 35
+      },
+      {
+        "name": "Meeting Preparation",
+        "count": 5,
+        "percentage": 22
+      },
+      {
+        "name": "Project Work",
+        "count": 4,
+        "percentage": 17
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+
+{
+  "buildCommand": "cd app && npm run build",
+  "outputDirectory": "app/.next",
+  "installCommand": "cd app && npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "NEXTAUTH_SECRET": "@nextauth-secret",
+    "NEXTAUTH_URL": "@nextauth-url",
+    "AZURE_AD_CLIENT_ID": "@azure-ad-client-id",
+    "AZURE_AD_CLIENT_SECRET": "@azure-ad-client-secret",
+    "AZURE_AD_TENANT_ID": "@azure-ad-tenant-id",
+    "NEXT_PUBLIC_APP_URL": "@next-public-app-url",
+    "NEXT_PUBLIC_API_URL": "@next-public-api-url"
+  }
+}

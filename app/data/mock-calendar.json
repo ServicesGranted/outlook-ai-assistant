@@ -1,0 +1,182 @@
+
+{
+  "upcomingEvents": [
+    {
+      "id": "cal-1",
+      "title": "Team Standup",
+      "startTime": "2025-06-15T09:00:00Z",
+      "endTime": "2025-06-15T09:30:00Z",
+      "location": "Conference Room A",
+      "attendees": [
+        {
+          "name": "Sarah Chen",
+          "email": "sarah.chen@company.com",
+          "status": "accepted"
+        },
+        {
+          "name": "Michael Rodriguez",
+          "email": "m.rodriguez@company.com",
+          "status": "accepted"
+        },
+        {
+          "name": "Alex Johnson",
+          "email": "a.johnson@company.com",
+          "status": "tentative"
+        }
+      ],
+      "type": "meeting",
+      "priority": "medium",
+      "isRecurring": true,
+      "description": "Daily team standup to discuss progress and blockers"
+    },
+    {
+      "id": "cal-2",
+      "title": "Client Presentation - Q4 Strategy",
+      "startTime": "2025-06-15T14:00:00Z",
+      "endTime": "2025-06-15T15:30:00Z",
+      "location": "Virtual - Zoom",
+      "attendees": [
+        {
+          "name": "Jennifer Walsh",
+          "email": "j.walsh@clientcorp.com",
+          "status": "accepted"
+        },
+        {
+          "name": "Robert Chen",
+          "email": "r.chen@clientcorp.com",
+          "status": "accepted"
+        }
+      ],
+      "type": "presentation",
+      "priority": "high",
+      "isRecurring": false,
+      "description": "Present Q4 strategy and roadmap to client stakeholders"
+    },
+    {
+      "id": "cal-3",
+      "title": "Budget Review Meeting",
+      "startTime": "2025-06-16T10:00:00Z",
+      "endTime": "2025-06-16T11:00:00Z",
+      "location": "Conference Room B",
+      "attendees": [
+        {
+          "name": "Sarah Chen",
+          "email": "sarah.chen@company.com",
+          "status": "accepted"
+        },
+        {
+          "name": "Finance Team",
+          "email": "finance@company.com",
+          "status": "accepted"
+        }
+      ],
+      "type": "meeting",
+      "priority": "high",
+      "isRecurring": false,
+      "description": "Review and approve Q4 budget allocations"
+    },
+    {
+      "id": "cal-4",
+      "title": "Product Demo - Enterprise Features",
+      "startTime": "2025-06-16T15:00:00Z",
+      "endTime": "2025-06-16T16:00:00Z",
+      "location": "Virtual - Teams",
+      "attendees": [
+        {
+          "name": "Lisa Thompson",
+          "email": "l.thompson@prospect.com",
+          "status": "accepted"
+        },
+        {
+          "name": "Sales Team",
+          "email": "sales@company.com",
+          "status": "accepted"
+        }
+      ],
+      "type": "demo",
+      "priority": "high",
+      "isRecurring": false,
+      "description": "Demonstrate enterprise features to potential client"
+    },
+    {
+      "id": "cal-5",
+      "title": "Weekly One-on-One",
+      "startTime": "2025-06-17T11:00:00Z",
+      "endTime": "2025-06-17T11:30:00Z",
+      "location": "Manager's Office",
+      "attendees": [
+        {
+          "name": "Manager",
+          "email": "manager@company.com",
+          "status": "accepted"
+        }
+      ],
+      "type": "one-on-one",
+      "priority": "medium",
+      "isRecurring": true,
+      "description": "Weekly check-in with direct manager"
+    },
+    {
+      "id": "cal-6",
+      "title": "Project Alpha Review",
+      "startTime": "2025-06-17T14:00:00Z",
+      "endTime": "2025-06-17T15:30:00Z",
+      "location": "Conference Room C",
+      "attendees": [
+        {
+          "name": "Michael Rodriguez",
+          "email": "m.rodriguez@company.com",
+          "status": "accepted"
+        },
+        {
+          "name": "Development Team",
+          "email": "dev@company.com",
+          "status": "accepted"
+        },
+        {
+          "name": "QA Team",
+          "email": "qa@company.com",
+          "status": "tentative"
+        }
+      ],
+      "type": "review",
+      "priority": "high",
+      "isRecurring": false,
+      "description": "Review Project Alpha progress and next steps"
+    },
+    {
+      "id": "cal-7",
+      "title": "Team Building Event",
+      "startTime": "2025-06-28T12:00:00Z",
+      "endTime": "2025-06-28T17:00:00Z",
+      "location": "Outdoor Park",
+      "attendees": [
+        {
+          "name": "All Team Members",
+          "email": "team@company.com",
+          "status": "pending"
+        }
+      ],
+      "type": "event",
+      "priority": "low",
+      "isRecurring": false,
+      "description": "Quarterly team building activities and networking"
+    }
+  ],
+  "todaysEvents": [
+    {
+      "id": "cal-1",
+      "title": "Team Standup",
+      "startTime": "2025-06-15T09:00:00Z",
+      "endTime": "2025-06-15T09:30:00Z",
+      "status": "upcoming"
+    },
+    {
+      "id": "cal-2",
+      "title": "Client Presentation - Q4 Strategy",
+      "startTime": "2025-06-15T14:00:00Z",
+      "endTime": "2025-06-15T15:30:00Z",
+      "status": "upcoming"
+    }
+  ]
+}

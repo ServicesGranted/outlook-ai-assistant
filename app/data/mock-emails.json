@@ -1,0 +1,187 @@
+
+{
+  "unreadEmails": [
+    {
+      "id": "1",
+      "subject": "Q4 Budget Review - Action Required",
+      "sender": {
+        "name": "Sarah Chen",
+        "email": "sarah.chen@company.com",
+        "initials": "SC"
+      },
+      "shortDescription": "Please review the attached Q4 budget proposal and provide your feedback by EOD Friday. The finance team needs approval for the marketing spend allocation.",
+      "timestamp": "2025-06-15T09:30:00Z",
+      "priority": "high",
+      "hasAttachment": true,
+      "category": "Finance"
+    },
+    {
+      "id": "2",
+      "subject": "Project Alpha - Weekly Status Update",
+      "sender": {
+        "name": "Michael Rodriguez",
+        "email": "m.rodriguez@company.com",
+        "initials": "MR"
+      },
+      "shortDescription": "Weekly progress report for Project Alpha. We've completed 75% of the development phase and are on track for the December launch.",
+      "timestamp": "2025-06-15T08:15:00Z",
+      "priority": "medium",
+      "hasAttachment": false,
+      "category": "Project Management"
+    },
+    {
+      "id": "3",
+      "subject": "Client Meeting Rescheduled - New Time Confirmation",
+      "sender": {
+        "name": "Jennifer Walsh",
+        "email": "j.walsh@clientcorp.com",
+        "initials": "JW"
+      },
+      "shortDescription": "Our meeting scheduled for Tuesday has been moved to Thursday at 2 PM. Please confirm your availability for the new time slot.",
+      "timestamp": "2025-06-15T07:45:00Z",
+      "priority": "high",
+      "hasAttachment": false,
+      "category": "Meetings"
+    },
+    {
+      "id": "4",
+      "subject": "Security Update - Password Policy Changes",
+      "sender": {
+        "name": "IT Security Team",
+        "email": "security@company.com",
+        "initials": "IT"
+      },
+      "shortDescription": "Important security update: New password policy will be enforced starting next week. Please review the requirements and update your credentials.",
+      "timestamp": "2025-06-15T06:20:00Z",
+      "priority": "medium",
+      "hasAttachment": true,
+      "category": "Security"
+    },
+    {
+      "id": "5",
+      "subject": "Team Building Event - RSVP Required",
+      "sender": {
+        "name": "HR Department",
+        "email": "hr@company.com",
+        "initials": "HR"
+      },
+      "shortDescription": "Join us for our quarterly team building event on June 28th. Activities include team challenges, lunch, and networking. Please RSVP by June 20th.",
+      "timestamp": "2025-06-14T16:30:00Z",
+      "priority": "low",
+      "hasAttachment": false,
+      "category": "HR"
+    }
+  ],
+  "unrepliedEmails": [
+    {
+      "id": "6",
+      "subject": "Partnership Proposal - Follow Up",
+      "sender": {
+        "name": "David Kim",
+        "email": "d.kim@partnercompany.com",
+        "initials": "DK"
+      },
+      "receivedDate": "2025-06-12T14:20:00Z",
+      "daysSinceReceived": 3,
+      "priority": "high",
+      "category": "Business Development"
+    },
+    {
+      "id": "7",
+      "subject": "Invoice #INV-2025-0847 - Payment Confirmation",
+      "sender": {
+        "name": "Accounts Receivable",
+        "email": "billing@vendor.com",
+        "initials": "AR"
+      },
+      "receivedDate": "2025-06-13T11:15:00Z",
+      "daysSinceReceived": 2,
+      "priority": "medium",
+      "category": "Finance"
+    },
+    {
+      "id": "8",
+      "subject": "Product Demo Request - Enterprise Solution",
+      "sender": {
+        "name": "Lisa Thompson",
+        "email": "l.thompson@prospect.com",
+        "initials": "LT"
+      },
+      "receivedDate": "2025-06-11T09:45:00Z",
+      "daysSinceReceived": 4,
+      "priority": "high",
+      "category": "Sales"
+    },
+    {
+      "id": "9",
+      "subject": "Conference Speaker Invitation",
+      "sender": {
+        "name": "Event Coordinator",
+        "email": "events@techconf.com",
+        "initials": "EC"
+      },
+      "receivedDate": "2025-06-10T13:30:00Z",
+      "daysSinceReceived": 5,
+      "priority": "medium",
+      "category": "Speaking"
+    }
+  ],
+  "unfiledEmails": [
+    {
+      "id": "10",
+      "subject": "Monthly Newsletter - Industry Insights",
+      "sender": {
+        "name": "Industry Weekly",
+        "email": "newsletter@industryweekly.com",
+        "initials": "IW"
+      },
+      "receivedDate": "2025-06-14T12:00:00Z",
+      "priority": "low",
+      "category": "Newsletter",
+      "suggestedCategories": ["Newsletter", "Industry News", "Archive"],
+      "aiConfidence": 0.95
+    },
+    {
+      "id": "11",
+      "subject": "Software License Renewal Notice",
+      "sender": {
+        "name": "Software Vendor",
+        "email": "licensing@softwarevendor.com",
+        "initials": "SV"
+      },
+      "receivedDate": "2025-06-13T15:20:00Z",
+      "priority": "medium",
+      "category": "Licenses",
+      "suggestedCategories": ["Licenses", "IT", "Finance"],
+      "aiConfidence": 0.88
+    },
+    {
+      "id": "12",
+      "subject": "Welcome to the Beta Program",
+      "sender": {
+        "name": "Beta Team",
+        "email": "beta@newproduct.com",
+        "initials": "BT"
+      },
+      "receivedDate": "2025-06-12T10:15:00Z",
+      "priority": "low",
+      "category": "Beta Testing",
+      "suggestedCategories": ["Beta Testing", "Product Development", "Archive"],
+      "aiConfidence": 0.92
+    },
+    {
+      "id": "13",
+      "subject": "Webinar Recording Available",
+      "sender": {
+        "name": "Learning Platform",
+        "email": "webinars@learningplatform.com",
+        "initials": "LP"
+      },
+      "receivedDate": "2025-06-11T16:45:00Z",
+      "priority": "low",
+      "category": "Training",
+      "suggestedCategories": ["Training", "Resources", "Archive"],
+      "aiConfidence": 0.90
+    }
+  ]
+}
